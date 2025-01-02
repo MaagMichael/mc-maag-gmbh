@@ -1,21 +1,24 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@400;700&family=Dongle&family=Satisfy&display=swap'); */
+ 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Aref Ruqaa Ink', serif; */
+}
+
+@layer base {
+  :root {
+    /* Define your CSS variables as channels with no color space function */
+    --color-primary: 25, 91, 151;     /* #195b97 */
+    --color-primary-light:  42, 42, 42  ;          /* #2a2a2a */
+    --color-secondary: 150, 150, 150;      /* #969696 */
+    --color-orange: 238, 110, 23; /*  #ee6e17 */
+    --color-light: 255, 255, 255; /* #ffffff */
+    /* ... */
+  }
 }

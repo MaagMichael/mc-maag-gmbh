@@ -9,8 +9,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        // https://tailwindcss.com/docs/customizing-colors#using-css-variables
+        primary: "rgb(var(--color-primary))",
+        primary_light: "rgb(var(--color-primary-light))",
+        secondary: "rgb(var(--color-secondary))",
+        orange: "rgb(var(--color-orange))",
+        light: "rgb(var(--color-light))",
       },
     },
   },
