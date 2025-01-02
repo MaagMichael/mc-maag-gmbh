@@ -1,0 +1,25 @@
+{
+    "MenuItems": [
+      {
+        "label": "Home",
+        "route": "/"
+      },
+      {
+        "label": "Über uns",
+        "route": "/about"
+      },
+      {
+        "label": "Beratungsleistung",
+        "route": "/consulting"
+      },
+      {
+        "label": "Coaching",
+        "route": "/coaching"
+      },
+      {
+        "label": "Referenzen",
+        "route": "/references"
+      }
+    ]
+  }
+  

@@ -1,48 +1,50 @@
-
+// https://www.ali-dev.com/blog/next-js-email-sending-with-app-router-and-emailjs
+// In the EmailJS dashboard, go to Account > Security and check 'Allow EmailJS API for non-browser applications.'
 
 function Footer() {
+  const sendEmail = async (fromData: FormData) => {
+    "use server";
 
-    const sendEmail = async (fromData: FormData) => {
-        "use server";
-    
-        const fullname = fromData  .get("fullname");
-        const email = fromData  .get("email");
-        const message = fromData  .get("message");
-    
-        if (!fullname && !email && !message) {
-          return;
-        }
-    
-        try {
-          const res = await fetch("https://api.emailjs.com/api/v1.0/email/send", {
-            headers: {
-              "Content-Type": "application/json",
-            },
-            method: "POST",
-            body: JSON.stringify({
-              service_id: process.env.EMAILJS_SERVICE_ID,
-              template_id: process.env.EMAILJS_TEMPLATE_ID,
-              user_id: process.env.EMAILJS_PUBLIC_KEY,
-              accessToken: process.env.EMAILJS_ACCESS_TOKEN,
-              template_params: {
-                fullname,
-                email,
-                message,
-              },
-            }),
-          });
-    
-          if (!res.ok) {
-            throw new Error("Failed to send email");
-          }
-        } catch (error) {
-          console.error("Error sending email:", error);
-        }
-      };
+    console.log(fromData);
+
+    const fullname = fromData.get("fullname");
+    const email = fromData.get("email");
+    const message = fromData.get("message");
+
+    if (!fullname || !email || !message) {
+      console.log("Please fill out all fields");
+    }
+
+    try {
+      const res = await fetch("https://api.emailjs.com/api/v1.0/email/send", {
+        headers: {
+          "Content-Type": "application/json",
+        },
+        method: "POST",
+        body: JSON.stringify({
+          service_id: process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+          template_id: process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
+          user_id: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!,
+          accessToken: process.env.NEXT_PUBLIC_EMAILJS_ACCESS_TOKEN!,
+          template_params: {
+            fullname,
+            email,
+            message,
+          },
+        }),
+      });
+      console.log(res);
+
+      if (!res.ok) {
+        throw new Error("Failed to send email", { cause: res.status });
+      }
+    } catch (error) {
+      console.error("Error sending email:", error);
+    }
+  };
 
   return (
     <div className="bg-[rgb(42,42,42)] text-gray-300 p-8">
-      
       <div className="text-lg mb-4">
         Haben wir Ihr Interesse geweckt? Sehr gut!
         <p className="mt-2">
@@ -85,37 +87,43 @@ function Footer() {
         {/* Contact Form */}
         <div>
           <h2 className="text-2xl font-semibold mb-4">Nachricht</h2>
-          <form action={""} className="space-y-4">
+          <form action={sendEmail} className="space-y-4">
             <div>
-              <label className="block">
+              <label className="block" htmlFor="fullname">
                 Name <span className="text-red-500">*</span>
               </label>
               <input
                 type="text"
-                className="w-full p-2 bg-white text-gray-900 rounded"
+                id="fullname"
+                name="fullname"
                 required
+                className="w-full p-2 bg-white text-gray-900 rounded"
               />
             </div>
 
             <div>
-              <label className="block">
-                Text <span className="text-red-500">*</span>
-              </label>
-              <textarea
-                className="w-full p-2 bg-white text-gray-900 rounded"
-                rows={4}
-                required
-              />
-            </div>
-
-            <div>
-              <label className="block">
-                E-Mail <span className="text-red-500">*</span>
+              <label className="block" htmlFor="email">
+                Email <span className="text-red-500">*</span>
               </label>
               <input
                 type="email"
-                className="w-full p-2 bg-white text-gray-900 rounded"
+                id="email"
+                name="email"
                 required
+                className="w-full p-2 bg-white text-gray-900 rounded"
+              />
+            </div>
+
+            <div>
+              <label className="block" htmlFor="message">
+                Text <span className="text-red-500">*</span>
+              </label>
+              <textarea
+                rows={4}
+                id="message"
+                name="message"
+                required
+                className="w-full p-2 bg-white text-gray-900 rounded"
               />
             </div>
 

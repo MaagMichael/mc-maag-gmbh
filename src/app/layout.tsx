@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="de">
-      <body>
+      <body className="max-w-[1024px] mx-auto">
         <Navigation />
         {children}
         <Footer />
