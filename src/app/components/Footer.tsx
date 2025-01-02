@@ -44,7 +44,7 @@ function Footer() {
   };
 
   return (
-    <div className="bg-[rgb(42,42,42)] text-gray-300 p-8">
+    <div className="bg-secondary text-light p-8">
       <div className="text-lg mb-4">
         Haben wir Ihr Interesse geweckt? Sehr gut!
         <p className="mt-2">
@@ -56,11 +56,12 @@ function Footer() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Contact Info */}
         <div>
-          <h2 className="text-2xl font-semibold mb-4">Kontakt</h2>
+          <h2 className="text-3xl text-secondary_light font-semibold mb-4">Kontakt</h2>
           <div className="space-y-2">
             <p>mc-maag consulting GmbH</p>
             <p>Stoßäckerstrasse 124</p>
             <p>70563 Stuttgart, Germany</p>
+            <br />
             <p className="mt-4">
               <a
                 href="https://maag-consulting.com"
@@ -69,6 +70,7 @@ function Footer() {
                 https://maag-consulting.com
               </a>
             </p>
+            <br />
             <p>E-Mail: info(at)maag-consulting.com</p>
             <p>Telefon: +49 711 22665494</p>
           </div>
@@ -76,17 +78,19 @@ function Footer() {
 
         {/* Locations */}
         <div>
-          <h2 className="text-2xl font-semibold mb-4">Standorte</h2>
+          <h2 className="text-3xl text-secondary_light font-semibold mb-4">Standorte</h2>
           <div className="space-y-2">
             <p>Stuttgart</p>
+            <br />
             <p>München</p>
+            <br />
             <p>Frankfurt</p>
           </div>
         </div>
 
         {/* Contact Form */}
         <div>
-          <h2 className="text-2xl font-semibold mb-4">Nachricht</h2>
+          <h1 className="text-3xl text-secondary_light font-semibold mb-4">Nachricht</h1>
           <form action={sendEmail} className="space-y-4">
             <div>
               <label className="block" htmlFor="fullname">
@@ -97,7 +101,7 @@ function Footer() {
                 id="fullname"
                 name="fullname"
                 required
-                className="w-full p-2 bg-white text-gray-900 rounded"
+                className="w-full p-2 bg-light text-secondary rounded"
               />
             </div>
 
@@ -110,7 +114,7 @@ function Footer() {
                 id="email"
                 name="email"
                 required
-                className="w-full p-2 bg-white text-gray-900 rounded"
+                className="w-full p-2 bg-light text-secondary rounded"
               />
             </div>
 
@@ -123,7 +127,7 @@ function Footer() {
                 id="message"
                 name="message"
                 required
-                className="w-full p-2 bg-white text-gray-900 rounded"
+                className="w-full p-2 bg-light text-secondary rounded"
               />
             </div>
 
@@ -133,7 +137,7 @@ function Footer() {
 
             <button
               type="submit"
-              className="bg-gray-600 hover:bg-gray-700 text-white px-4 py-2 rounded"
+              className="bg-primary hover:bg-secondary_light text-light px-4 py-2 rounded"
             >
               absenden
             </button>
@@ -146,21 +150,21 @@ function Footer() {
         </div>
       </div>
 
-      <footer className="mt-16 text-sm border-t border-gray-700 pt-4">
+      <footer className="mt-16 text-sm border-t border-secondary_light pt-4">
         <div className="space-x-2">
-          <a href="#" className="hover:text-gray-100">
+          <a href="#" className="hover:text-secondary_light">
             Impressum
           </a>{" "}
           |
-          <a href="#" className="hover:text-gray-100">
+          <a href="#" className="hover:text-secondary_light">
             Datenschutz
           </a>{" "}
           |
-          <a href="#" className="hover:text-gray-100">
+          <a href="#" className="hover:text-secondary_light">
             Cookie-Richtlinie
           </a>{" "}
           |
-          <a href="#" className="hover:text-gray-100">
+          <a href="#" className="hover:text-secondary_light">
             Sitemap
           </a>
         </div>

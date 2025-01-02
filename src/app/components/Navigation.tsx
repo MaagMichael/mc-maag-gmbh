@@ -38,7 +38,7 @@ function Navigation() {
             <Link
               key={index}
               href={item.route}
-              className="text-slate-500 hover:text-black font-bold text-xl px-2 lg:px-4"
+              className="text-secondary_light hover:text-secondary font-bold text-xl px-2 lg:px-4"
             >
               {item.label}
             </Link>

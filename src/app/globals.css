@@ -13,8 +13,8 @@ body {
   :root {
     /* Define your CSS variables as channels with no color space function */
     --color-primary: 25, 91, 151;     /* #195b97 */
-    --color-primary-light:  42, 42, 42  ;          /* #2a2a2a */
-    --color-secondary: 150, 150, 150;      /* #969696 */
+    --color-secondary:  42, 42, 42  ;          /* #2a2a2a */
+    --color-secondary-light: 150, 150, 150;      /* #969696 */
     --color-orange: 238, 110, 23; /*  #ee6e17 */
     --color-light: 255, 255, 255; /* #ffffff */
     /* ... */

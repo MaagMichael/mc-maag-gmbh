@@ -11,8 +11,8 @@ export default {
       colors: {
         // https://tailwindcss.com/docs/customizing-colors#using-css-variables
         primary: "rgb(var(--color-primary))",
-        primary_light: "rgb(var(--color-primary-light))",
         secondary: "rgb(var(--color-secondary))",
+        secondary_light: "rgb(var(--color-secondary-light))",
         orange: "rgb(var(--color-orange))",
         light: "rgb(var(--color-light))",
       },
