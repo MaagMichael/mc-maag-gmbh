@@ -1,0 +1,19 @@
+active link (blue)
+
+letters bla bla over each hero image 
+
+dark light themes with tailwind
+
+SEO in NextJS
+
+Impressum as pdf for download (check videos for NextJS)
+DSVGO as pdf for download
+
+use toastify for notification message (e.g. email sending)
+
+emailJS as server actions, but in actions.ts and userActionState
+
+
+DONE:
+emailJS as server actions - (open user feedback if successfully sent)
+install locally Google fonts
