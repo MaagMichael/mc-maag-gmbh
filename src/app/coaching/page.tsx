@@ -1,10 +1,10 @@
-import React from 'react'
-import HeroImage from '../components/HeroImage';
+
+import HeroImageCoach from '../components/HeroImageCoach';
 
 function Coaching() {
   return (
     <div className="">
-      <HeroImage image = {"/images/hero/hero_coach.webp"} />
+      <HeroImageCoach image = {"/images/hero/hero_coach.webp"} />
     </div>
   );
 }
