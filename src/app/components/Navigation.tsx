@@ -7,7 +7,7 @@ import Image from "next/image";
 
 function Navigation() {
   return (
-    <div className=" ring-2 ring-red-500">
+    <div className="max-w-[1024px] mx-auto ring-2 ring-red-500">
       <div className="flex justify-center md:justify-start items-center ring-2 ring-blue-500 py-4">
 
         {/* Navigation Menu mobile as client component */}

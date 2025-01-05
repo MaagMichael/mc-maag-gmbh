@@ -1,9 +1,12 @@
-import React from 'react'
+import HeroImage from "../components/HeroImage";
+
 
 function References() {
   return (
-    <div>References</div>
-  )
+    <div className="">
+      <HeroImage image = {"/images/hero/hero_02.webp"} />
+    </div>
+  );
 }
 
-export default References
+export default References;
