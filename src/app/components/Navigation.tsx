@@ -7,8 +7,8 @@ import Image from "next/image";
 
 function Navigation() {
   return (
-    <div className="max-w-[1024px] mx-auto ring-2 ring-red-500">
-      <div className="flex justify-center md:justify-start items-center ring-2 ring-blue-500 py-4">
+    <div className="w-full sticky top-0 z-10 bg-light shadow-md">
+      <div className="max-w-[1024px] mx-auto py-4 flex justify-center md:justify-start items-center ">
 
         {/* Navigation Menu mobile as client component */}
         {/* toggle by tailwind */}
