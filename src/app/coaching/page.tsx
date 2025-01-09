@@ -12,7 +12,8 @@ function Coaching() {
           Systemisches Coaching
         </h1>
 
-        <div className="text-secondary text-xl md:text-2xl space-y-4">
+        {/* CSS for all text boxes */}
+        <div className="text-secondary text-lg md:text-xl space-y-4">
           <p className="font-bold">
             ...ist eine kontextbezogene, ressourcen- und lösungsorientierte
             Beratungsform für Führungs- und Leitungskräfte sowie Teams und
