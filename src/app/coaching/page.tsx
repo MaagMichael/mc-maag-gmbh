@@ -3,16 +3,16 @@ import HeroImageCoach from "../components/HeroImageCoach";
 
 function Coaching() {
   return (
-    <div className="">
+    <>
       <HeroImageCoach image={"/images/hero/hero_coach.webp"} />
 
       {/* Text Systemisches Coaching */}
       <div className="max-w-[1024px] mx-auto p-4 space-y-4 mb-8">
-        <h1 className="text-primary text-xl md:text-4xl font-bold uppercase">
+        <h1 className="text-primary text-xl md:text-4xl font-bold ">
           Systemisches Coaching
         </h1>
 
-        {/* CSS for all text boxes */}
+        {/* start CSS for all text boxes */}
         <div className="text-secondary text-lg md:text-xl space-y-4">
           <p className="font-bold">
             ...ist eine kontextbezogene, ressourcen- und lösungsorientierte
@@ -88,8 +88,11 @@ function Coaching() {
               </div>
             </div>
 
-            {/* icon */}
-            <div className="min-w-32 flex flex-col justify-center items-center space-y-4">
+            {/* icon für id="fallbeispiel"*/}
+            <a
+              href="#fallbeispiel"
+              className="min-w-32 flex flex-col justify-center items-center space-y-4"
+            >
               <p className="text-primary text-center">
                 Coaching <br /> Fallbeispiel
               </p>
@@ -99,7 +102,7 @@ function Coaching() {
                 width={100}
                 height={100}
               />
-            </div>
+            </a>
           </div>
 
           {/* 3 Text box  with icon and link */}
@@ -122,8 +125,11 @@ function Coaching() {
               </div>
             </div>
 
-            {/* icon */}
-            <div className="min-w-32 flex flex-col justify-center items-center space-y-4">
+            {/* icon für id="termin" */}
+            <a
+              href="#termin"
+              className="min-w-32 flex flex-col justify-center items-center space-y-4"
+            >
               <p className="text-primary text-center">
                 hier Termin <br /> vereinbaren
               </p>
@@ -133,7 +139,7 @@ function Coaching() {
                 width={62}
                 height={62}
               />
-            </div>
+            </a>
           </div>
 
           <p>
@@ -151,9 +157,92 @@ function Coaching() {
             min – in Präsenz und Online (Google Meet, Teams)
           </p>
         </div>
-        {/* end */}
+        {/* end CSS for all text boxes */}
+
+        {/* Abschnitt Fallbeispiel ######################################################## */}
+        <h1
+          id="fallbeispiel"
+          className="scroll-mt-24 text-primary text-xl md:text-4xl font-bold "
+        >
+          Ablauf Systemisches Coaching (exemplarisch)
+        </h1>
+
+        {/* start CSS for all text boxes */}
+        <div className="text-secondary text-lg md:text-xl space-y-4">
+          <p className="font-bold">Ausgangssituation</p>
+          <p>
+            Ein Kunde hat eine Führungsposition übernommen. Dabei stellt sich,
+            neben Störungen und Konflikten im beruflichen Umfeld, für ihn die
+            persönliche Herausforderung dieser neuen Rolle gerecht zu werden.
+            Die Lösung liegt aber nicht in der Beantwortung der Frage, was
+            Führung für ihn bedeutet und erfordert. Zielführender ist es
+            vielmehr zu fragen, was im Unternehmen von einer Führungskraft
+            erwartet wird. Die sich daraus ergebenden Anforderungen an Position
+            und Rolle führen zu einem Abgleich des eigenen Wollens und Könnens.
+          </p>
+          <p className="font-bold">Vorgehen</p>
+          <p>
+            Das Systemische Coaching startet mit einem kostenfreien
+            Erstgespräch, bei dem vor allem das gegenseitige Kennenlernen im
+            Vordergrund steht. Ein Coaching kann nur dann erfolgreich sein, wenn
+            das nötige Vertrauen vorhanden ist. Der Kunde entscheidet selbst,
+            was für ihn gerade relevant ist und beschreibt seine Erwartungen und
+            sein persönliches Coaching- Ziel, was in Form einer
+            „Auftragsbestätigung“ festgehalten wird.
+          </p>
+          <p>
+            Für das hier beschriebene Fallbeispiel kommt ein effizienter und
+            erprobter Methodenfundus zur Anwendung (Auszug):
+          </p>
+
+          <div className="flex flex-col md:flex-row justify-between space-y-4 ">
+            <ul className="list-disc pl-6">
+              <li>Analyse Ist-Zustand</li>
+              <li>Eigenskalierung</li>
+              <li>Erwartungskarusell</li>
+              <li>Dual- und Teamsystem Analyse</li>
+            </ul>
+            <ul className="list-disc pl-6">
+              <li>Systemisches Rollenmodell</li>
+              <li>Eigenkompetenz und -reflexion</li>
+              <li>Ressourcenmobilisierung & Lösung</li>
+              <li>Hausaufgaben</li>
+            </ul>
+          </div>
+
+          <p>
+            Alle Sitzungsergebnisse werden dokumentiert und zur Unterstützung
+            des individuellen Entwicklungsprozesses zur Verfügung gestellt.
+          </p>
+          <p className="font-bold">Individuelle Lösungen</p>
+
+          <p>
+            Sehr oft erkennt der Kunde während seines Coachings eingeprägte
+            Verhaltensmuster, die ihn im Privaten einerseits stärken, ihn aber
+            andererseits im beruflichen Alltags hinderlich sind. Da die privaten
+            Lebensbereiche kaum klar abgrenzbar sind, muss zur Optimierung und
+            Erweiterung der eigenen Handlungsmöglichkeiten im Beruf auch der
+            punktuelle Bezug zum Privaten hergestellt werden. Die dabei
+            entwickelten neuen Verhaltensweisen können Sie dann direkt zur
+            Problemlösung in Ihrem Umfeld umsetzen.
+          </p>
+          <p>
+            Wir agieren auf Augenhöhe und ich bin als neutrale Begleiter für den
+            Lösungsweg bzw. den Coaching Prozess zuständig. Dabei bestimmen Sie
+            alleine, wie weit oder wie tief Sie dabei in Ihrer momentanen
+            Situation gehen möchten.
+          </p>
+          <p>
+            Mit meiner Unterstützung erarbeiten Sie durch gezielt ausgewählte
+            Methoden des systemischen Coachings Ihren Lösungsweg im Rahmen Ihrer
+            eigenen Kompetenzen.
+          </p>
+          
+        </div>
+        {/* end CSS for all text boxes */}
       </div>
-    </div>
+      <div id="termin" className="scroll-mt-24"></div>
+    </>
   );
 }
 

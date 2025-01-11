@@ -94,7 +94,7 @@ function Footer() {
           </div>
 
           {/* Contact Form */}
-          <div>
+          <div className="max-w-96"> 
             <h1 className="text-3xl text-secondary_light font-semibold mb-4">
               Nachricht
             </h1>
