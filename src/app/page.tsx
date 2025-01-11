@@ -48,7 +48,7 @@ export default function Home() {
               width={144}
               height={144}
             />
-            <p>"Effective egine(ering) of your projects"</p>
+            <p>&ldquo;Effective egine(ering) of your projects&rdquo;</p>
           </div>
 
           {/* icon Process Reengineering */}
@@ -60,7 +60,7 @@ export default function Home() {
               width={144}
               height={144}
             />
-            <p>"Committed to Process Reengineering"</p>
+            <p>&ldquo;Committed to Process Reengineering&rdquo;</p>
           </div>
 
           {/* icon qualitymanagement */}
@@ -72,7 +72,7 @@ export default function Home() {
               width={144}
               height={144}
             />
-            <p>"Committed to supply chain in quality and cost"</p>
+            <p>&ldquo;Committed to supply chain in quality and cost&rdquo;</p>
           </div>
         </Link>
       </div>

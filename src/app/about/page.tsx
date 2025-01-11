@@ -13,7 +13,7 @@ function About() {
         {/* start CSS for all text boxes */}
         <div className="text-secondary text-lg md:text-xl space-y-4">
           <p>
-            <span className="font-bold">„Ihr Erfolg ist unser Ziel“</span> –
+            <span className="font-bold">&ldquo;Ihr Erfolg ist unser Ziel&rdquo;</span> –
             Profitieren Sie von unserer jahrzehntelangen Erfahrung und
             Praxissicherheit in den differenziertesten Branchen.
           </p>
@@ -93,7 +93,7 @@ function About() {
             erfordern Transparenz und Konsequenz - und sind letztendlich doch
             nichts ohne die handelnden Menschen. Grundlage meines nachhaltigen
             Beratungsansatzes ist die Einsicht, daß sich fachliche und soziale
-            „Effizienz“ bzw. Verträglichkeit gegenseitig bedingen. Die
+            &ldquo;Effizienz&rdquo; bzw. Verträglichkeit gegenseitig bedingen. Die
             prozessuale Beratung und das Systemische Coaching sind im Idealfall
             gleichgerichtet und somit maximal lösungsorientiert.
           </p>
@@ -111,8 +111,8 @@ function About() {
             Somit konnte ich praxisnah die aus einer Umsetzung resultierenden
             Herausforderungen und die individuelle Belastbarkeit von Teams und
             Einzelpersonen beobachten und verstehen. Denn oft wird der
-            anfängliche Enthusiasmus Einzelner ("...denn in jedem Neuanfang
-            wohnt der Zauber der Hoffnung.") durch Verunsicherung oder
+            anfängliche Enthusiasmus Einzelner (&ldquo;...denn in jedem Neuanfang
+            wohnt der Zauber der Hoffnung.&rdquo;) durch Verunsicherung oder
             Frustration gedämpft und die tägliche Zusammenarbeit blockiert.
           </p>
           <p>
@@ -122,8 +122,8 @@ function About() {
             unterstützen.
           </p>
           <p>
-            <span className="font-bold">Mein Credo:</span> "Es gibt keine Fehler
-            – Es gibt nur Erfahrungen und Deine Reaktionen darauf", Tom Krause,
+            <span className="font-bold">Mein Credo:</span> &ldquo;Es gibt keine Fehler
+            – Es gibt nur Erfahrungen und Deine Reaktionen darauf&rdquo;, Tom Krause,
             Opernsänger (1934-2013)
           </p>
           <p>
