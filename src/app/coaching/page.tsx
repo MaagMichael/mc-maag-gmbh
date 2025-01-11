@@ -196,7 +196,7 @@ function Coaching() {
             erprobter Methodenfundus zur Anwendung (Auszug):
           </p>
 
-          <div className="flex flex-col md:flex-row justify-between space-y-4 ">
+          <div className="flex flex-col md:flex-row gap-4 justify-between space-y-4 ">
             <ul className="list-disc pl-6">
               <li>Analyse Ist-Zustand</li>
               <li>Eigenskalierung</li>
