@@ -6,7 +6,7 @@ function References() {
       <HeroImage image={"/images/hero/hero_02.webp"} />
 
       <div className="max-w-[1024px] mx-auto p-4 space-y-4 mb-8">
-        <h1 className="text-primary text-xl md:text-4xl font-bold uppercase">
+        <h1 className="text-primary text-xl md:text-4xl font-bold ">
           Referenzen
         </h1>
 

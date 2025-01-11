@@ -1,5 +1,6 @@
 import Image from "next/image";
 import HeroImageCoach from "../components/HeroImageCoach";
+import Link from "next/link";
 
 function Coaching() {
   return (
@@ -60,7 +61,7 @@ function Coaching() {
             </div>
 
             {/* icon */}
-            <div className="min-w-32 flex flex-col justify-center items-center space-y-4">
+            <Link href="/about" className="min-w-32 flex flex-col justify-center items-center space-y-4">
               <p className="text-primary text-center">mehr erfahren</p>
               <Image
                 src="/images/icon/icon_sebb_coach.jpg"
@@ -68,7 +69,7 @@ function Coaching() {
                 width={64}
                 height={64}
               />
-            </div>
+            </Link>
           </div>
 
           {/* 2 Text box  with icon and link */}
