@@ -146,7 +146,7 @@ function Footer() {
                 type="submit"
                 className="bg-primary hover:bg-secondary_light text-light px-4 py-2 rounded"
               >
-                absenden
+                Senden
               </button>
 
               <div className="text-sm mt-2">
@@ -166,17 +166,17 @@ function Footer() {
             <a href="#" className="hover:text-secondary_light">
               Datenschutz
             </a>{" "}
-            |
-            <a href="#" className="hover:text-secondary_light">
+            {/* | */}
+            {/* <a href="#" className="hover:text-secondary_light">
               Cookie-Richtlinie
             </a>{" "}
             |
             <a href="#" className="hover:text-secondary_light">
               Sitemap
-            </a>
+            </a> */}
           </div>
           <div className="mt-2">
-            Copyright © 2023 mc - maag consulting GmbH. All Rights Reserved.
+            Copyright © 2024 mc - maag consulting GmbH. All Rights Reserved.
           </div>
         </footer>
       </div>

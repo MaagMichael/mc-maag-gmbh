@@ -10,7 +10,7 @@ function References() {
           Referenzen
         </h1>
 
-        <div className="text-secondary text-xl md:text-2xl space-y-4">
+        <div className="text-secondary text-lg md:text-xl space-y-4">
           <p>
             Möchten Sie Referenzen über unsere Beratungsleistungen einholen? -
             Wir nennen Ihnen gerne unsere Ansprechpartner.

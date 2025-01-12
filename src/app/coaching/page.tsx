@@ -61,8 +61,16 @@ function Coaching() {
             </div>
 
             {/* icon */}
-            <Link href="/about" className="min-w-32 flex flex-col justify-center items-center space-y-4">
-              <p className="text-primary text-center">mehr erfahren</p>
+            <Link
+              href="/about"
+              className="min-w-32 flex flex-col justify-center items-center space-y-4"
+            >
+              
+              <div className="text-primary text-center">
+                <p>mehr</p>
+                <p>erfahren</p>
+              </div>
+
               <Image
                 src="/images/icon/icon_sebb_coach.jpg"
                 alt="icon_sebb_coach.jpg"
@@ -94,9 +102,11 @@ function Coaching() {
               href="#fallbeispiel"
               className="min-w-32 flex flex-col justify-center items-center space-y-4"
             >
-              <p className="text-primary text-center">
-                Coaching <br /> Fallbeispiel
-              </p>
+              <div className="text-primary text-center">
+                <p>Coaching</p>
+                <p>Fallbeispiel</p>
+              </div>
+
               <Image
                 src="/images/icon/icon_blau_coach.png"
                 alt="icon_blau_coach.png"
@@ -131,9 +141,10 @@ function Coaching() {
               href="#termin"
               className="min-w-32 flex flex-col justify-center items-center space-y-4"
             >
-              <p className="text-primary text-center">
-                hier Termin <br /> vereinbaren
-              </p>
+              <div className="text-primary text-center">
+                <p>hier Termin</p>
+                <p>vereinbaren</p>
+              </div>
               <Image
                 src="/images/icon/icon_email.png"
                 alt="icon_icon_email.png"
@@ -238,7 +249,6 @@ function Coaching() {
             Methoden des systemischen Coachings Ihren Lösungsweg im Rahmen Ihrer
             eigenen Kompetenzen.
           </p>
-          
         </div>
         {/* end CSS for all text boxes */}
       </div>
