@@ -1,6 +1,8 @@
 // https://www.ali-dev.com/blog/next-js-email-sending-with-app-router-and-emailjs
 // In the EmailJS dashboard, go to Account > Security and check 'Allow EmailJS API for non-browser applications.'
 
+import Link from "next/link";
+
 function Footer() {
   const sendEmail = async (fromData: FormData) => {
     "use server";
@@ -159,13 +161,13 @@ function Footer() {
 
         <footer className="mt-16 text-sm border-t border-secondary_light pt-4">
           <div className="space-x-2">
-            <a href="#" className="hover:text-secondary_light">
+            <Link href="/impressum" className="hover:text-secondary_light">
               Impressum
-            </a>{" "}
+            </Link>{" "}
             |
-            <a href="#" className="hover:text-secondary_light">
+            <Link href="/dsvgo" className="hover:text-secondary_light">
               Datenschutz
-            </a>{" "}
+            </Link>{" "}
             {/* | */}
             {/* <a href="#" className="hover:text-secondary_light">
               Cookie-Richtlinie
