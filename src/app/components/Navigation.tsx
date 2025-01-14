@@ -15,11 +15,11 @@ function Navigation() {
         <Link href="/" className="px-4 ">
           <Image
             src="/logo.jpg"
-            width={105}
-            height={54}
+            width={349}
+            height={178}
             alt="Logo of  the company"
             priority
-            className="flex flex-ceter"
+            className="flex flex-ceter w-20 h-auto"
           />
         </Link>
 

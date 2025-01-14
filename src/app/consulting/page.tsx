@@ -12,7 +12,7 @@ function Consulting() {
           Beratungsleistung
         </h1>
 
-        <p>
+        <p className="text-lg md:text-xl">
           Die mc - maag consulting GmbH steht für zielgerichtete Konzeptionen
           zur Prozessoptimierung und Effizienzsteigerung der Abläufe innerhalb
           des gesamten Produktentstehungsprozesses im Projekt oder Unternehmen.
@@ -21,7 +21,7 @@ function Consulting() {
           sichern durch unsere operative Beteiligung Ihren nachhaltigen Erfolg.
         </p>
 
-        <div className=" flex flex-wrap justify-around items-center gap-4">
+        <div className="text-lg md:text-xl flex flex-wrap justify-around items-center gap-4">
           {/* icon projektmanagement */}
           <a
             href="#project"
@@ -68,17 +68,17 @@ function Consulting() {
         {/* ######################## Detail areas of bussiness ######################### */}
 
         {/* ######################### Multi-/Project Management ######################### */}
-        <h1
+        {/* <h1
           id="project"
           className="text-primary text-xl md:text-4xl font-bold scroll-mt-24"
         >
           Multi-/Project Management
-        </h1>
+        </h1> */}
         {/* start CSS for all text boxes */}
-        <div className="text-secondary text-lg md:text-xl space-y-4">
+        {/* <div className="text-secondary text-lg md:text-xl space-y-4">
           <p className="font-bold">xxx</p>
           <p>xxx</p>
-        </div>
+        </div> */}
         {/* end CSS for all text boxes */}
         {/* ######################### Process Reengineering ######################### */}
         <h1
