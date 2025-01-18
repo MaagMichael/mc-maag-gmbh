@@ -6,6 +6,7 @@ DSVGO as pdf for download
 dark light themes with tailwind
 
 font size in clamp min, pref, max
+https://stoffel.io/blog/css-tailwind-fluid-typography-clamp-calc
 
 use toastify for notification message (e.g. email sending)
 
