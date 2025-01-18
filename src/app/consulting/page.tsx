@@ -31,8 +31,9 @@ function Consulting() {
             <Image
               src="/images/icon/icon-orange-projectmanagement.png"
               alt="icon-orange-projectmanagement.png"
-              width={144}
-              height={144}
+              width={567}
+              height={567}
+              className="w-36"
             />
           </a>
 
@@ -43,10 +44,11 @@ function Consulting() {
           >
             <p className="font-bold">Process Reengineering</p>
             <Image
-              src="/images/icon/icon_blau_reenginieering.png"
-              alt="icon_blau_reenginieering.png"
-              width={144}
-              height={144}
+              src="/images/icon/icon_orange_reenginieering.png"
+              alt="icon_orange_reenginieering.png"
+              width={567}
+              height={567}
+              className="w-36"
             />
           </a>
 
@@ -59,8 +61,9 @@ function Consulting() {
             <Image
               src="/images/icon/icon-orange-quality.png"
               alt="icon-orange-quality.png"
-              width={144}
-              height={144}
+              width={567}
+              height={567}
+              className="w-36"
             />
           </a>
         </div>

@@ -44,6 +44,8 @@ function Navigation() {
 
       </div>
 
+      <div className="bg-bg-orange h-[2vh] w-full"></div>
+
       {/* gototop button */}
       <ButtonToTop />
     </div>

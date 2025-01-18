@@ -103,7 +103,7 @@ function Footer() {
             <form action={sendEmail} className="space-y-4">
               <div>
                 <label className="block" htmlFor="fullname">
-                  Name <span className="text-red-500">*</span>
+                  Name <span className="text-orange">*</span>
                 </label>
                 <input
                   type="text"
@@ -116,7 +116,7 @@ function Footer() {
 
               <div>
                 <label className="block" htmlFor="email">
-                  Email <span className="text-red-500">*</span>
+                  Email <span className="text-orange">*</span>
                 </label>
                 <input
                   type="email"
@@ -129,7 +129,7 @@ function Footer() {
 
               <div>
                 <label className="block" htmlFor="message">
-                  Text <span className="text-red-500">*</span>
+                  Text <span className="text-orange">*</span>
                 </label>
                 <textarea
                   rows={4}
@@ -152,7 +152,7 @@ function Footer() {
               </button>
 
               <div className="text-sm mt-2">
-                <span className="text-red-500">*</span> Hinweis: Bitte die mit *
+                <span className="text-orange">*</span> Hinweis: Bitte die mit *
                 gekennzeichneten Felder ausfüllen.
               </div>
             </form>

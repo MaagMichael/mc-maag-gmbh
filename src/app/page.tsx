@@ -45,8 +45,9 @@ export default function Home() {
             <Image
               src="/images/icon/icon-orange-projectmanagement.png"
               alt="icon-orange-projectmanagement.png"
-              width={144}
-              height={144}
+              width={567}
+              height={567}
+              className="w-36"
             />
             <p>&ldquo;Effective egine(ering) of your projects&rdquo;</p>
           </div>
@@ -55,10 +56,11 @@ export default function Home() {
           <div className="min-w-32 flex flex-col justify-center items-center space-y-4">
             <p className="font-bold">Process Reengineering</p>
             <Image
-              src="/images/icon/icon_blau_reenginieering.png"
-              alt="icon_blau_reenginieering.png"
-              width={144}
-              height={144}
+              src="/images/icon/icon_orange_reenginieering.png"
+              alt="icon_orange_reenginieering.png"
+              width={567}
+              height={567}
+              className="w-36"
             />
             <p>&ldquo;Committed to Process Reengineering&rdquo;</p>
           </div>
@@ -69,8 +71,9 @@ export default function Home() {
             <Image
               src="/images/icon/icon-orange-quality.png"
               alt="icon-orange-quality.png"
-              width={144}
-              height={144}
+              width={567}
+              height={567}
+              className="w-36"
             />
             <p>&ldquo;Committed to supply chain in quality and cost&rdquo;</p>
           </div>

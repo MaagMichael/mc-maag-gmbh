@@ -6,6 +6,7 @@ type HeroImageProps = {
 
 function HeroImage({ image }: HeroImageProps) {
   return (
+    <>
       <div className="w-full h-[40vh] md:h-[60vh] lg:h-[80vh] relative">
         <Image
           src={image}
@@ -20,6 +21,8 @@ function HeroImage({ image }: HeroImageProps) {
           <p>braucht keine Antwort</p>
         </div>
       </div>
-    );
+      <div className="bg-orange h-[2vh] w-full"></div>
+    </>
+  );
 }
-export default HeroImage
+export default HeroImage;

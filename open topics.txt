@@ -1,10 +1,11 @@
-dark light themes with tailwind
-
 SEO in NextJS
 
 Impressum as pdf for download (check videos for NextJS)
-svg icons for social media https://www.svgrepo.com/svg/512120/facebook-176
 DSVGO as pdf for download
+
+dark light themes with tailwind
+
+font size in clamp min, pref, max
 
 use toastify for notification message (e.g. email sending)
 
@@ -16,3 +17,6 @@ emailJS as server actions - (open user feedback if successfully sent)
 install locally Google fonts
 letters bla bla over each hero image 
 active link (blue)
+svg icons for social media https://www.svgrepo.com/svg/512120/facebook-176
+install locally Google fonts
+icons in orange
