@@ -39,7 +39,7 @@ function DSVGO() {
 
           <p>
             Bei direkten oder indirekten Verweisen auf fremde Webseiten
-            ("Hyperlinks"), die außerhalb des Verantwortungsbereiches des Autors
+            (&ldquo;Hyperlinks&rdquo;), die außerhalb des Verantwortungsbereiches des Autors
             liegen, würde eine Haftungsverpflichtung ausschließlich in dem Fall
             in Kraft treten, in dem der Autor von den Inhalten Kenntnis hat und
             es ihm technisch möglich und zumutbar wäre, die Nutzung im Falle
@@ -168,8 +168,8 @@ function DSVGO() {
             eindeutige Cookie-ID wiedererkannt und identifiziert werden.
           </p>
           <p>
-            Die meisten der verwendeten Cookies sind so genannte "Session-
-            Cookies"?. Sie werden nach Ende Ihres Besuchs automatisch gelöscht.
+            Die meisten der verwendeten Cookies sind so genannte &ldquo;Session-
+            Cookies&rdquo;?. Sie werden nach Ende Ihres Besuchs automatisch gelöscht.
             Andere Cookies bleiben auf Ihrem Endgerät gespeichert bis Sie diese
             löschen. Diese Cookies ermöglichen es, Ihren Browser beim nächsten
             Besuch wiederzuerkennen. Sie können Ihren Browser so einstellen,

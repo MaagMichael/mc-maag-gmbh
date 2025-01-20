@@ -11,6 +11,7 @@ https://stoffel.io/blog/css-tailwind-fluid-typography-clamp-calc
 use toastify for notification message (e.g. email sending)
 
 emailJS as server actions, but in actions.ts and userActionState
+emailJS auto-replay feedback email an user if successfully sent and copy message
 
 
 DONE:
