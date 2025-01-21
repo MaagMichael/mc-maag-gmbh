@@ -15,7 +15,7 @@ function HeroImage({ image }: HeroImageProps) {
           style={{ objectFit: "cover", objectPosition: "right" }}
           priority
         />
-        <div className="absolute top-1/2 right-[30%] text-xl md:text-3xl lg:text-5xl text-light uppercase px-4">
+        <div className="absolute top-1/2 right-[30%] text-sm sm:text-lg md:text-3xl lg:text-5xl text-light uppercase px-4">
           <p>Effiziente Prozesse</p>
           <p>erfordern Transparenz und</p>
           <p>Konsequenz</p>

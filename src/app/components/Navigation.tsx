@@ -10,8 +10,6 @@ function Navigation() {
   return (
     <div className="w-full sticky top-0 z-10 bg-light shadow-md">
       <div className="max-w-[1024px] mx-auto py-4 flex justify-between md:justify-start items-center">
-        
-
         <Link href="/" className="px-4 ">
           <Image
             src="/logo.jpg"
@@ -29,6 +27,7 @@ function Navigation() {
           {menuData.MenuItems.map((item, index) => (
             <NavLink key={index} label={item.label} route={item.route} />
           ))}
+          <ButtonToTop />
         </div>
 
         {/* Navigation Menu mobile as client component */}
@@ -41,13 +40,9 @@ function Navigation() {
             }))}
           />
         </div>
-
       </div>
 
       <div className="bg-bg-orange h-[2vh] w-full"></div>
-
-      {/* gototop button */}
-      <ButtonToTop />
     </div>
   );
 }
