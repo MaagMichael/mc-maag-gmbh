@@ -35,7 +35,12 @@ function Impressum() {
             <p>Umsatzsteuer-ID: 99067/10465</p>
             <p>Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz: DE298440414</p>
           </div>
-          
+          <div>
+            <p>Inhaltlich Verantwortlicher gem. § 18 Abs. 2 MStV:</p>
+            <p>Dipl.-Ing. Sebastian Maag, Geschäftsführer</p>
+            <p>Dipl.-Ing. Michael Maag, Geschäftsführer</p>
+            <p>(Kontakt s.o.)</p>
+          </div>
         </div>
       </div>
     </div>
