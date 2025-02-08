@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Allow: /*
+
+
+# Sitemaps
+Sitemap: https://maag-consulting.com/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 10
+
+# Common directories to disallow
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+Disallow: /404
+Disallow: /500

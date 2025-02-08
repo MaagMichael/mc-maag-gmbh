@@ -1,7 +1,4 @@
-SEO in NextJS
-
-Impressum as pdf for download (check videos for NextJS)
-DSVGO as pdf for download
+SEO in NextJS page.tsx 
 
 dark light themes with tailwind
 
@@ -22,3 +19,6 @@ active link (blue)
 svg icons for social media https://www.svgrepo.com/svg/512120/facebook-176
 install locally Google fonts
 icons in orange
+Impressum as pdf for download (check videos for NextJS)
+DSVGO as pdf for download https://www.e-recht24.de/muster-datenschutzerklaerung.html
+SEO robots.txt, sitemap.xml

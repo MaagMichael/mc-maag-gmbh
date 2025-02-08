@@ -168,14 +168,6 @@ function Footer() {
             <Link href="/dsvgo" className="hover:text-secondary_light">
               Datenschutz
             </Link>{" "}
-            {/* | */}
-            {/* <a href="#" className="hover:text-secondary_light">
-              Cookie-Richtlinie
-            </a>{" "}
-            |
-            <a href="#" className="hover:text-secondary_light">
-              Sitemap
-            </a> */}
           </div>
           <div className="mt-2">
             Copyright © 2024 mc - maag consulting GmbH. All Rights Reserved.
