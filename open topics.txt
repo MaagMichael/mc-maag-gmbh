@@ -1,4 +1,3 @@
-SEO in NextJS page.tsx 
 
 dark light themes with tailwind
 
@@ -22,3 +21,4 @@ icons in orange
 Impressum as pdf for download (check videos for NextJS)
 DSVGO as pdf for download https://www.e-recht24.de/muster-datenschutzerklaerung.html
 SEO robots.txt, sitemap.xml
+SEO key words metadata in NextJS, favicon
