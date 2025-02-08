@@ -18,6 +18,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     '/about',
     '/coaching',
     '/consulting',
+    '/references',
     '/impressum',
     '/dsvgo',
   ]
