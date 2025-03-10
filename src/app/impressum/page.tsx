@@ -10,7 +10,7 @@ function Impressum() {
           Impressum
         </h1>
 
-        <div className="text-secondary text-lg md:text-xl space-y-4">
+        <div className="text-secondary dark:text-secondary_light text-lg md:text-xl space-y-4">
           <p>Angaben gemäß § 5 TMG</p>
           <div>
             <p>mc-maag consulting GmbH</p>

@@ -5,12 +5,13 @@ import NavLink from "./NavLink";
 
 import Link from "next/link";
 import Image from "next/image";
+import ThemeSwitch from "./ThemeSwitch";
 
 function Navigation() {
   return (
-    <div className="w-full sticky top-0 z-10 bg-light shadow-md">
-      <div className="max-w-[1024px] mx-auto py-4 flex justify-between md:justify-start items-center">
-        <Link href="/" className="px-4 ">
+    <div className="w-full sticky top-0 z-10 bg-light dark:bg-secondary shadow-md">
+      <div className="max-w-[1024px] mx-auto p-2 flex justify-between  items-center">
+        <Link href="/" className="p-2 rounded bg-light dark:bg-light">
           <Image
             src="/logo.jpg"
             width={349}
@@ -30,19 +31,24 @@ function Navigation() {
           <ButtonToTop />
         </div>
 
-        {/* Navigation Menu mobile as client component */}
-        {/* toggle by tailwind */}
-        <div className="flex pr-8 md:hidden">
-          <NavigationMobil
-            data={menuData.MenuItems.map((item) => ({
-              label: item.label,
-              route: item.route,
-            }))}
-          />
-        </div>
-      </div>
+        <div className="flex gap-8">
+          
+            <ThemeSwitch />
+          
 
-      <div className="bg-bg-orange h-[2vh] w-full"></div>
+          {/* Navigation Menu mobile as client component */}
+          {/* toggle by tailwind */}
+          <div className="flex pr-8 md:hidden">
+            <NavigationMobil
+              data={menuData.MenuItems.map((item) => ({
+                label: item.label,
+                route: item.route,
+              }))}
+            />
+          </div>
+        </div>
+
+      </div>
     </div>
   );
 }

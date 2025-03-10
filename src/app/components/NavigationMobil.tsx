@@ -37,13 +37,13 @@ function NavigationMobil({ data }: NavMobilProps) {
       )}
 
       {isOpen && (
-        <div className="fixed inset-0 z-50 bg-light py-4 w-full h-full overflow-y-scroll flex flex-col items-center">
+        <div className="fixed inset-0 z-50 bg-light py-4 w-full h-full overflow-y-scroll flex flex-col items-center dark:bg-secondary">
           <button
             onClick={toggleMenu}
             className="absolute top-8 right-8 w-8 h-8 flex items-center justify-center"
           >
-            <span className="block w-8 h-0.5 bg-secondary transform rotate-45 absolute"></span>
-            <span className="block w-8 h-0.5 bg-secondary transform -rotate-45 absolute"></span>
+            <span className="block w-8 h-0.5 bg-secondary dark:bg-secondary_light transform rotate-45 absolute"></span>
+            <span className="block w-8 h-0.5 bg-secondary dark:bg-secondary_light transform -rotate-45 absolute"></span>
           </button>
 
           <div onClick={toggleMenu} className="mt-8 flex flex-col space-y-8">

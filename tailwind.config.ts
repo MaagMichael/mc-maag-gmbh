@@ -19,4 +19,6 @@ export default {
     },
   },
   plugins: [],
+  // for dark mode npm i next-themes
+  darkMode: 'class',
 } satisfies Config;

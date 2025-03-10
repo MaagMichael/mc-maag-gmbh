@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 
+// dark mode wrapper
+import { Providers } from './providers'
+
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 
@@ -16,11 +19,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="de">
-      <body >
-        <Navigation />
-        {children}
-        <Footer />
+    <html lang="de" suppressHydrationWarning>
+      <body>
+        <Providers>
+          <Navigation />
+          {children}
+          <Footer />
+        </Providers>
       </body>
     </html>
   );

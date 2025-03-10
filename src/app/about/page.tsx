@@ -11,7 +11,7 @@ function About() {
         {/* <h1 className="text-primary text-xl md:text-4xl font-bold "></h1> */}
 
         {/* start CSS for all text boxes */}
-        <div className="text-secondary text-lg md:text-xl space-y-4">
+        <div className="text-secondary dark:text-secondary_light text-lg md:text-xl space-y-4">
           <p>
             <span className="font-bold">&ldquo;Ihr Erfolg ist unser Ziel&rdquo;</span> –
             Profitieren Sie von unserer jahrzehntelangen Erfahrung und
@@ -37,7 +37,7 @@ function About() {
 
           {/* ##################### Bilder GF ###################### */}
 
-          <div className="text-secondary text-lg md:text-xl text-center flex flex-col md:flex-row gap-4 justify-around md:items-start">
+          <div className="text-secondary dark:text-secondary_light text-lg md:text-xl text-center flex flex-col md:flex-row gap-4 justify-around md:items-start">
             {/* icon projektmanagement */}
             <div className="min-w-32 flex flex-col justify-center items-center space-y-4">
               <Image

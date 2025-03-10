@@ -6,7 +6,7 @@ function DSVGO() {
       {/* <HeroImage image={"/images/hero/hero_02.webp"} /> */}
 
       <div className="max-w-[1024px] mx-auto p-4 space-y-4 mb-8">
-        <p>
+        <p className="text-secondary dark:text-secondary_light">
           Download here:{" "}
           <span>
             <a
@@ -24,7 +24,7 @@ function DSVGO() {
           Datenschutzerklärung
         </h1>
 
-        <div className="text-secondary text-lg md:text-xl space-y-4">
+        <div className="text-secondary dark:text-secondary_light text-lg md:text-xl space-y-4">
           <p>
             {" "}
             Inhaltlich Verantwortlicher gemäß § 55 Abs. 2 RStV: mc - maag

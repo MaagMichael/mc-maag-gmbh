@@ -46,7 +46,7 @@ function Footer() {
   };
 
   return (
-    <div className="bg-secondary">
+    <div className="bg-secondary ">
       <div className="max-w-[1024px] mx-auto  text-light p-4">
         <div className="text-lg mb-4">
           Haben wir Ihr Interesse geweckt? Sehr gut!

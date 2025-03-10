@@ -14,7 +14,7 @@ function Coaching() {
         </h1>
 
         {/* start CSS for all text boxes */}
-        <div className="text-secondary text-lg md:text-xl space-y-4">
+        <div className="text-secondary dark:text-secondary_light text-lg md:text-xl space-y-4">
           <p className="font-bold">
             ...ist eine kontextbezogene, ressourcen- und lösungsorientierte
             Beratungsform für Führungs- und Leitungskräfte sowie Teams und
@@ -180,7 +180,7 @@ function Coaching() {
         </h1>
 
         {/* start CSS for all text boxes */}
-        <div className="text-secondary text-lg md:text-xl space-y-4">
+        <div className="text-secondary dark:text-secondary_light text-lg md:text-xl space-y-4">
           <p className="font-bold">Ausgangssituation</p>
           <p>
             Ein Kunde hat eine Führungsposition übernommen. Dabei stellt sich,

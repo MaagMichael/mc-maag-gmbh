@@ -1,5 +1,4 @@
-
-dark light themes with tailwind
+################################## open topics, next features ##################################
 
 font size in clamp min, pref, max
 https://stoffel.io/blog/css-tailwind-fluid-typography-clamp-calc
@@ -9,8 +8,10 @@ use toastify for notification message (e.g. email sending)
 emailJS as server actions, but in actions.ts and userActionState
 emailJS auto-replay feedback email an user if successfully sent and copy message
 
+transfer text and images into Strapi 5
 
-DONE:
+################################## DONE ##################################
+
 emailJS as server actions - (open user feedback if successfully sent)
 install locally Google fonts
 letters bla bla over each hero image 
@@ -21,4 +22,5 @@ icons in orange
 Impressum as pdf for download (check videos for NextJS)
 DSVGO as pdf for download https://www.e-recht24.de/muster-datenschutzerklaerung.html
 SEO robots.txt, sitemap.xml
-SEO key words metadata in NextJS, favicon
+SEO key words metadata in NextJS layout.tsx, favicon
+dark light themes with tailwind https://www.davegray.codes/posts/light-dark-mode-nextjs-app-router-tailwind

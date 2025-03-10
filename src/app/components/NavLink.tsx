@@ -16,7 +16,7 @@ function NavLink(data: NavLinkProps) {
   return (
     <Link
       href={data.route}
-      className={`hover:text-secondary font-bold text-xl px-2 lg:px-4 duration-300 ${
+      className={`hover:text-secondary dark:hover:text-primary font-bold text-xl px-2 lg:px-4 duration-300 ${
         pathname === data.route ? "text-primary" : "text-secondary_light"
       }`}
     >
