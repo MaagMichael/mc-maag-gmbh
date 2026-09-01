@@ -52,7 +52,7 @@ function About() {
               {/* Insta und Linkind icon links */}
               <div className="flex flex-row flex-start gap-4">
                 
-                <a href="https://www.linkedin.com/in/sebastian-maag-4a072bb4/" target='blank'>
+                <a href="https://www.linkedin.com/in/sebastian-maag-4a072bb4/" target='blank' rel="noopener noreferrer">
                   <Image
                     src="/images/icon/linkedin.png"
                     alt="linkedin.png"
@@ -60,7 +60,7 @@ function About() {
                     height={30}
                   />
                 </a>
-                <a href="https://www.instagram.com/coach.me.well/" target='blank'>
+                <a href="https://www.instagram.com/coach.me.well/" target='blank' rel="noopener noreferrer">
                   <Image
                     src="/images/icon/insta.png"
                     alt="insta.png"

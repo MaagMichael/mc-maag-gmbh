@@ -49,7 +49,7 @@ export default function Home() {
               height={567}
               className="w-36"
             />
-            <p>&ldquo;Effective egine(ering) of your projects&rdquo;</p>
+            {/* <p>&ldquo;Effective egine(ering) of your projects&rdquo;</p> */}
           </div>
 
           {/* icon Process Reengineering */}
@@ -62,7 +62,7 @@ export default function Home() {
               height={567}
               className="w-36"
             />
-            <p>&ldquo;Committed to Process Reengineering&rdquo;</p>
+            {/* <p>&ldquo;Committed to Process Reengineering&rdquo;</p> */}
           </div>
 
           {/* icon qualitymanagement */}
@@ -75,7 +75,7 @@ export default function Home() {
               height={567}
               className="w-36"
             />
-            <p>&ldquo;Committed to supply chain in quality and cost&rdquo;</p>
+            {/* <p>&ldquo;Committed to supply chain in quality and cost&rdquo;</p> */}
           </div>
         </Link>
       </div>

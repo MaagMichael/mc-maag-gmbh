@@ -28,7 +28,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     url: `${baseUrl}/${route}`,
     lastModified: new Date(),
     changeFrequency: "monthly" as const,
-    // hogher propiority for the home page route
+    // higher propiority for the home page route
     priority: route === "" ? 1 : 0.8,
   }));
 

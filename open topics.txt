@@ -1,3 +1,29 @@
+Security Issues
+6. EmailJS Credentials Exposed via NEXT_PUBLIC_
+File: src/app/components/Footer.tsx
+
+service_id: process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+template_id: process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
+user_id: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!,
+accessToken: process.env.NEXT_PUBLIC_EMAILJS_ACCESS_TOKEN!,
+
+All NEXT_PUBLIC_ variables are bundled into the client JavaScript 
+and visible to anyone via browser DevTools. Even though the fetch 
+runs server-side, the credentials are exposed in the client bundle. 
+These should be plain EMAILJS_* variables (without NEXT_PUBLIC_) 
+since the call is inside a server action.
+
+9. No User Feedback on Contact Form
+File: src/app/components/Footer.tsx
+
+The sendEmail server action silently swallows success/failure. The user 
+never knows if their message was sent. Consider using revalidatePath
+ or returning a status message via useFormStatus.
+
+11. No robots.txt
+File: src/app/sitemap.ts comments mention /robots.txt, but no 
+robots.ts file exists. Should add one for proper SEO control.
+
 ################################## open topics, next features ##################################
 
 font size in clamp min, pref, max

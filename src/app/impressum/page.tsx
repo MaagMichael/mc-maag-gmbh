@@ -25,8 +25,8 @@ function Impressum() {
           <p>Kontakt:</p>
           <div>
             <p>Telefon: +49 711 1267342</p>
-            <p>E-Mail: info@maag-consulting.com</p>
-            <p>Internet: www.maag-consulting.com</p>
+            <p>E-Mail: info@mc-maag-consulting.com</p>
+            <p>Internet: www.mc-maag-consulting.com</p>
           </div>
           <p>Registereintrag:</p>
           <div>
