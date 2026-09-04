@@ -4,46 +4,46 @@
 import Link from "next/link";
 
 function Footer() {
-  const sendEmail = async (fromData: FormData) => {
-    "use server";
+  // const sendEmail = async (fromData: FormData) => {
+  //   "use server";
 
-    console.log(fromData);
+  //   console.log(fromData);
 
-    const fullname = fromData.get("fullname");
-    const email = fromData.get("email");
-    const message = fromData.get("message");
+  //   const fullname = fromData.get("fullname");
+  //   const email = fromData.get("email");
+  //   const message = fromData.get("message");
 
-    if (!fullname || !email || !message) {
-      console.log("Please fill out all fields");
-    }
+  //   if (!fullname || !email || !message) {
+  //     console.log("Please fill out all fields");
+  //   }
 
-    try {
-      const res = await fetch("https://api.emailjs.com/api/v1.0/email/send", {
-        headers: {
-          "Content-Type": "application/json",
-        },
-        method: "POST",
-        body: JSON.stringify({
-          service_id: process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
-          template_id: process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
-          user_id: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!,
-          accessToken: process.env.NEXT_PUBLIC_EMAILJS_ACCESS_TOKEN!,
-          template_params: {
-            fullname,
-            email,
-            message,
-          },
-        }),
-      });
-      console.log(res);
+  //   try {
+  //     const res = await fetch("https://api.emailjs.com/api/v1.0/email/send", {
+  //       headers: {
+  //         "Content-Type": "application/json",
+  //       },
+  //       method: "POST",
+  //       body: JSON.stringify({
+  //         service_id: process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+  //         template_id: process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
+  //         user_id: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!,
+  //         accessToken: process.env.NEXT_PUBLIC_EMAILJS_ACCESS_TOKEN!,
+  //         template_params: {
+  //           fullname,
+  //           email,
+  //           message,
+  //         },
+  //       }),
+  //     });
+  //     console.log(res);
 
-      if (!res.ok) {
-        throw new Error("Failed to send email", { cause: res.status });
-      }
-    } catch (error) {
-      console.error("Error sending email:", error);
-    }
-  };
+  //     if (!res.ok) {
+  //       throw new Error("Failed to send email", { cause: res.status });
+  //     }
+  //   } catch (error) {
+  //     console.error("Error sending email:", error);
+  //   }
+  // };
 
   return (
     <div className="bg-secondary ">
@@ -56,7 +56,8 @@ function Footer() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-8"> */}
           {/* Contact Info */}
           <div>
             <h2 className="text-3xl text-secondary_light font-semibold mb-4">
@@ -69,14 +70,14 @@ function Footer() {
               <br />
               <p className="mt-4">
                 <a
-                  href="https://maag-consulting.com"
+                  href="https://www.mc-maag-consulting.com"
                   className="hover:text-gray-100"
                 >
-                  https://maag-consulting.com
+                  https://www.mc-maag-consulting.com
                 </a>
               </p>
               <br />
-              <p>E-Mail: info(at)maag-consulting.com</p>
+              <p>E-Mail: info(at)mc-maag-consulting.com</p>
               <p>Telefon: +49 711 22665494</p>
             </div>
           </div>
@@ -94,9 +95,10 @@ function Footer() {
               <p>Frankfurt</p>
             </div>
           </div>
+     
 
           {/* Contact Form */}
-          <div className="max-w-96"> 
+          {/* <div className="max-w-96">
             <h1 className="text-3xl text-secondary_light font-semibold mb-4">
               Nachricht
             </h1>
@@ -156,7 +158,8 @@ function Footer() {
                 gekennzeichneten Felder ausfüllen.
               </div>
             </form>
-          </div>
+          </div> */}
+          {/* end of contact form */}
         </div>
 
         <footer className="mt-16 text-sm border-t border-secondary_light pt-4">

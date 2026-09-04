@@ -8,6 +8,9 @@
 
 import { MetadataRoute } from "next";
 
+// required for export as static pages, otherwise Next.js will try to generate the sitemap dynamically on the server
+export const dynamic = "force-static";
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://maag-consulting.com'
   const baseUrl = "https://maag-consulting.com";
